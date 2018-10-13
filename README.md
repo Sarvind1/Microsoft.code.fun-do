@@ -1,1 +1,8 @@
-# Microsoft.code.fun-do
+# Microsoft.code.fun.do
+Flood Indicator - Floods on any particular place depend upon the amount of rain pour and amount of groundwater & drainage in that particular system. So on the basis of these three criterias we will predict the possibility of flood in a particular region
+Amount of ground water - We can find the water content in the soil by historical rainfall analysis, Soil properties(For eg. Effect of soil moisture will be more pronounced in the water absorption bands of 1.4, 1.9 and 2.7 μm, amount of voids in soil and its packing can also be analysed by analysing reflectance curves).
+Spatial drainage i.e. geodesical pattern of earth will help us to know how water will drain if water goes above the soil level and how much time it will take discharge into the external system.
+Historical Rainpour - Analysis of cloud flow patterns and amount of possible rainpour a cloud system can make as well as possibility of rain pour with distance it travels can help us analyse the possibility and amount of rainfall at any place nearby.
+These all features can be extracted using Image processing techniques on image data provided by landsat satelites i.e. (image data consisting of 10-12 bands). Data about geography of a land can be extracted before hand, rest of the two will calculated on the basis of time. 
+Feature extraction- We will extract certain important features in a spatial cloud system and soil moisture distribution. This will be preprocessed and then will be fed to the CNN which is then again fed to LSTM network of systems which are good for making predictions.
+Why our model is good- 1. Analysis of major variables which are effective in rain pour analysis. 2. Quantifying the spatial model for preprocessing 3. Using a machine learning model for historical analysis of data/
